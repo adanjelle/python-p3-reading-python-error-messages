@@ -180,7 +180,7 @@ IndexErrors arise when you try to access an element at an index past the end of
 a list. Key errors relate to `dict` objects in Python (similar to JSON
 objects). If a key is referenced but does not exist, this exception is thrown.
 
-```console
+```consolecc
 > list = [0, 1, 2, 3, 4]
 > dict = {'a':1, 'b':2, 'c':3}
 
